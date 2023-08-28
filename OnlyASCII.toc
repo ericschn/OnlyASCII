@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: OnlyASCII
+## Author: ric
+## Notes: Hides all chat that includes non-ascii characters.
+## Version: 1.0
+## SavedVariables: OnlyASCII_Saved
+OnlyASCII.lua
