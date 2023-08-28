@@ -11,7 +11,6 @@ function ChatFrame_OnEvent(event)
     for i = 1, string.len(chatMsg) do
       local byte = string.byte(string.sub(chatMsg, i, i))
       if byte > 126 then
-        -- arg1 = "--BLOCKED-- " .. chatMsg
         return false
       end
     end
